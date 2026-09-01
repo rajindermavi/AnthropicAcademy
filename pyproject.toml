@@ -1,0 +1,17 @@
+[project]
+name = "Academy"
+version = "0.1.0"
+description = "My personal Academy."
+readme = "README.md"
+authors = [
+    { name = "Rajinder Mavi", email = "rajinder@mavi.phd" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+academy = "academy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
